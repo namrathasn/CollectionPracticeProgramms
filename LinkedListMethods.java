@@ -9,7 +9,8 @@ public class LinkedListMethods {
         al.add("Ravi");
         al.add("Ajay");
         System.out.println(al.add("namratha"));
-        System.out.println(al.);
+      al.addFirst("ravi");
+      al.contains("Ajay");
         Iterator<String> itr=al.iterator();
         while(itr.hasNext()){
             System.out.println(itr.next());
